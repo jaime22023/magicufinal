@@ -25,13 +25,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 setContentView(R.layout.activity_main);
 
                 ball1=findViewById(R.id.boton);
+
                 respuesta=findViewById(R.id.respuesta);
 
                 ball1.setOnClickListener((View.OnClickListener) this);
                 Toast.makeText(MainActivity.this, "Buscando Tu Destino!!!", Toast.LENGTH_SHORT).show();
             }
             @Override
-            public void onClick(View V)  {
+            public void onClick (View V)  {
 
                 switch (V.getId()) {
                     case R.id.boton:
@@ -41,7 +42,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         break;
                 }
             }
-        }
 
-    }
 }

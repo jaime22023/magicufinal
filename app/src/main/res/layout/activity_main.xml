@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/download"
+    android:background="@drawable/downloa"
+    android:padding="8dp"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -12,18 +13,21 @@
         android:layout_width="306dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="veamos tu futuro"
-        android:textColor="#545872"
+        android:layout_marginTop="34dp"
+        android:text="@string/veamos_tu_futuro"
+        android:textColor="#233ACC"
         android:textSize="35sp"
         android:textStyle="italic|bold" />
 
+
     <ImageView
         android:id="@+id/boton"
-        android:layout_width="100dp"
-        android:layout_height="180dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="48dp"
-        android:background="@drawable/Chanchito"/>
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/vertical"
+        app:srcCompat="@drawable/download" />
 
     <TextView
         android:id="@+id/respuesta"
@@ -31,8 +35,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="35dp"
-        android:text="@string/XXXXXX"
-        android:textColor="#3a7f3a"
+        android:text="@string/xxxxxxxx"
+        android:textColor="#14DB14"
         android:textSize="30sp"
         android:textStyle="italic|bold" />
 
