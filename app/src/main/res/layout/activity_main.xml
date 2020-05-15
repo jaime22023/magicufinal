@@ -26,8 +26,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
-        android:contentDescription="@string/vertical"
-        app:srcCompat="@drawable/download" />
+        app:srcCompat="@drawable/download"
+        android:contentDescription="@string/vertical" />
 
     <TextView
         android:id="@+id/respuesta"

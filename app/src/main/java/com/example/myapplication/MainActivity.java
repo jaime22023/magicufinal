@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 setContentView(R.layout.activity_main);
 
                 ball1=findViewById(R.id.boton);
-
                 respuesta=findViewById(R.id.respuesta);
 
                 ball1.setOnClickListener((View.OnClickListener) this);
